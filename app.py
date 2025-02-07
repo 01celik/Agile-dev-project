@@ -41,14 +41,14 @@ class LoginWindow(QWidget):
         self.username_label = QLabel('Username:', self.overlay)
         self.username_label.setStyleSheet("color: #2E8B57; font-weight: bold;")
         self.username_input = QLineEdit(self.overlay)
-        self.username_input.setStyleSheet("padding: 8px; border: 2px solid #2E8B57; border-radius: 8px;")
+        self.username_input.setStyleSheet("padding: 8px; border: 2px solid #2E8B57; border-radius: 8px; color: black;")
 
         # Password label and input
         self.password_label = QLabel('Password:', self.overlay)
         self.password_label.setStyleSheet("color: #2E8B57; font-weight: bold;")
         self.password_input = QLineEdit(self.overlay)
         self.password_input.setEchoMode(QLineEdit.Password)
-        self.password_input.setStyleSheet("padding: 8px; border: 2px solid #2E8B57; border-radius: 8px;")
+        self.password_input.setStyleSheet("padding: 8px; border: 2px solid #2E8B57; border-radius: 8px; color: black;")
 
         # Login button
         self.login_button = QPushButton('Login', self.overlay)
